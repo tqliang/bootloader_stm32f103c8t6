@@ -1,0 +1,39 @@
+# ===== 构建输出 =====
+build/
+build_*/
+Debug/
+Release/
+
+# ===== 编译产物 =====
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.d
+*.su
+*.out
+
+# ===== 链接器 =====
+*.ld.orig
+
+# ===== CubeMX 临时文件 =====
+mx.scratch
+
+# ===== IDE / 编辑器 =====
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+# 其他临时文件
+*.swp
+*.swo
+*~
+*.DS_Store
+Thumbs.db
+
+# ===== 调试 =====
+*.jlink
+*.ini.log
